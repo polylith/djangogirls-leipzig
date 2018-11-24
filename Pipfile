@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+secret_key_util = {editable = true, git = "https://github.com/fhanspach/dj-secret-key-util"}
+requests = "*"
+"django-recaptcha2" = "*"
+"psycopg2-binary" = "*"
+dj-database-url = "*"
+gunicorn = "*"
+dj-static = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
